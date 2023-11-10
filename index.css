@@ -1,0 +1,28 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 2em 0;
+    padding: 2em 0 0 0;
+    background-image: url(image/wood.jpg);
+}
+
+.typewriter {
+    height: calc( 100vh - 6em );
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    border-top: 1px solid lightgrey;
+    padding: 3px;
+}
+
