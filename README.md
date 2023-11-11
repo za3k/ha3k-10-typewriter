@@ -1,4 +1,4 @@
-See the demo [here](https://za3k.github.io/ha3k-11-typewriter)
+See the demo [here](https://za3k.github.io/ha3k-10-typewriter)
 
 Made for [hack-a-day](https://za3k.com/hackaday)
 
