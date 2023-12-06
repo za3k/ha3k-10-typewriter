@@ -18,6 +18,7 @@ function letterPressed(ev) {
         console.log(old);
         play("clack")
     } else if (ev.key == "Enter") {
+        window.localStorage.setItem("typewriter", $(".typewriter").text());
         $(".typewriter").append("\n");
         play("slide");
     } else if (ev.key.length > 1) {
@@ -33,10 +34,13 @@ function letterPressed(ev) {
         } else {
         }
     }
+    window.scrollTo(0, document.body.scrollHeight + 1000);
 }
 
 $(document).ready((ev) => {
     document.addEventListener('keydown', letterPressed, false);
+
+    $(".typewriter").text(window.localStorage.getItem("typewriter") || undefined);
 
     SOUNDS["clack"] = [
         new Audio("audio/clack1.mp3"),

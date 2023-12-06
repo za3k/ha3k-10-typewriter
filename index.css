@@ -14,7 +14,8 @@ body {
 }
 
 .typewriter {
-    height: calc( 100vh - 6em );
+    min-height: calc(100vh - 6em);
+    height: max-content;
 }
 
 .footer {
@@ -23,6 +24,8 @@ body {
     width: 100%;
     background: white;
     border-top: 1px solid lightgrey;
+    text-align: right;
     padding: 3px;
+    opacity: 50%;
 }
 
